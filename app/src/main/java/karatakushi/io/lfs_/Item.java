@@ -15,4 +15,11 @@ public class Item implements Serializable {
         this.likeCount = likeCount;
         this.isLiked = false;
     }
+    Item(String title, String content, int likeCount,boolean isLiked) {
+        this.title = title;
+        this.content = content;
+        this.likeCount = likeCount;
+        this.isLiked = isLiked;
+    }
+
 }
